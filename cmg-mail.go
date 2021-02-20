@@ -52,7 +52,7 @@ func getMRevID() string {
 
 // sendMsg will generate a set of email headers and send the mail to me.
 func sendMsg(path string, id *string) {
-	a := Creds { "REDACTED", "REDACTED"
+	a := Creds { "REDACTED", "REDACTED" }
 	s := "cmg revision id " + *id
 	m := gomail.NewMessage()
 
